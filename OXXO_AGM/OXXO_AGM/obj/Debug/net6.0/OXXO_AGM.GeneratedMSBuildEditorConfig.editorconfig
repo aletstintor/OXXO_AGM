@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OXXO_AGM
+build_property.RootNamespace = OXXO_AGM
+build_property.ProjectDir = C:\Users\IntegraConsulting\Desktop\GITHUB\OXXO_AGM\OXXO_AGM\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\IntegraConsulting\Desktop\GITHUB\OXXO_AGM\OXXO_AGM
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Bancos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Bancos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Bancos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Bancos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Bancos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuY29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Comercios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Comercios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Comercios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Comercios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Comercios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IntegraConsulting/Desktop/GITHUB/OXXO_AGM/OXXO_AGM/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qpbnv0cwjb

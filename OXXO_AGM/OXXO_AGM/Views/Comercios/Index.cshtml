@@ -1,0 +1,179 @@
+﻿@model IEnumerable<OXXO_AGM.Models.Comercio>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEmisor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rfc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreCompleto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CuentaDeposito)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RazonSocial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreComercial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Portal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonaMoral)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonaFisica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailConfirmado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdMerchant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioFai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioFum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdBancoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdClusterNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCompaniaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEstatusNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdGiroComercioNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTipoDepositoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdEmisor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rfc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCompleto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CuentaDeposito)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RazonSocial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreComercial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Portal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonaMoral)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonaFisica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailConfirmado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdMerchant)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsuarioFai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsuarioFum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdBancoNavigation.IdBanco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdClusterNavigation.IdCluster)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCompaniaNavigation.IdCompania)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdEstatusNavigation.IdEstatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdGiroComercioNavigation.IdGiroComercio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoDepositoNavigation.IdTipoDeposito)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdComercio">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdComercio">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdComercio">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

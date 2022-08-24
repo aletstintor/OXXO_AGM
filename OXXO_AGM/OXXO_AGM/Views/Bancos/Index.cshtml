@@ -1,0 +1,65 @@
+﻿@model IEnumerable<OXXO_AGM.Models.Banco>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Banco1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioFai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioFum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fum)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Banco1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsuarioFai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsuarioFum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fum)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdBanco">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdBanco">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdBanco">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
